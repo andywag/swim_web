@@ -1,0 +1,94 @@
+td.timeAAAA {
+    background-color: #93bde1;
+}
+
+td.timeAAA {
+    background-color: #a2c6e5;
+}
+
+td.timeAA {
+    background-color: #b1cfe9;
+}
+
+td.timeA {
+    background-color: #c1d9ee;
+}
+
+td.timeBB {
+    background-color: #d0e2f2;
+}
+
+td.timeB {
+    background-color: #dfecf6;
+}
+
+
+
+.selectLabelStyle
+{
+    display: inline-block; width: 70px; text-align: left;
+}
+
+
+select {
+    width:100px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+select option {
+    width:100px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.dashed {stroke-dasharray: 2,2;}
+
+.nvd3.nv-line .nvd3.nv-scatter .nv-series-0 .nv-point {
+    stroke-width: 4px;
+    fill-opacity: 1;
+    stroke-opacity: 1;
+}
+
+.meetTableDiv {
+   position: absolute;
+   height: 140%;
+   width: 95% ;
+   overflow: scroll;
+}
+
+#meetTable{
+ /* min-width: 100px;
+  table-layout: fixed;
+*/
+}
+
+#meetTable td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.meetRank {
+    min-width:30px;
+}
+
+.meetName {
+    min-width:100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meetTeam {
+    min-width:60px;
+}
+
+.meetTime {
+    min-width:60px;
+}
+
+
+
+
